@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #cc0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .buscador {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .buscador input {
+      flex: 1;
+      padding: 12px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .buscador button {
+      padding: 12px 24px;
+      background: #cc0000;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pokédex</h1>
+  </header>
+
+  <main>
+    <div class="buscador">
+      <input type="text" placeholder="Buscar pokémon...">
+      <button>Buscar</button>
+    </div>
+
+    <div class="card">
+      <h2>Busca un pokémon</h2>
+      <p>Escribe el nombre arriba y presiona buscar</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Proyecto colaborativo — Módulo 2 Git</p>
+  </footer>
+
+</body>
+</html>
